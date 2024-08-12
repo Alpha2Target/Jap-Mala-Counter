@@ -100,16 +100,16 @@ button {
 }
 
 .Total , .MalaTotal {
-        font-size: 24px; /* Adjusts the font size */
-        font-weight: bold; /* Makes the text bold */
-        color: #FFFFFF; /* Text color */
-        background-color: #4CAF50; /* Background color (green in this case) */
-        padding: 10px 20px; /* Adds space inside the div */
-        border-radius: 8px; /* Rounds the corners */
-        text-align: center; /* Centers the text horizontally */
-        width: 100px; /* Sets a fixed width */
-        margin: 20px auto; /* Centers the div horizontally on the page */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+        font-size: 24px; 
+        font-weight: bold; 
+        color: #FFFFFF; 
+        background-color: #4CAF50; 
+        padding: 10px 20px; 
+        border-radius: 8px;
+        text-align: center; 
+        width: 100px; 
+        margin: 20px auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     }
     
 
@@ -123,7 +123,7 @@ button {
     width: 90%;
 }
 
-/* Media Queries for Mobile Devices */
+
 
 @media (max-width: 768px) {
     .counter-container {
@@ -166,9 +166,7 @@ button {
         font-size: 3vw;
     }
 }
-/* Other CSS remains the same */
 
-/* Media Queries for Mobile Devices */
 @media (max-width: 480px) {
     .counter-container {
         height: 70vh;
@@ -185,35 +183,34 @@ button {
     }
 
     button {
-        /* font-size: 1vw; */
         padding: 6px 6px;
         width: 85%;
     }
 
     .reset {
-        height: 7vh;
-        width: 50vw;
-        /* font-size: 2em; */
+        height: 50px;
+        width: 60%;
+  
         margin: 10px 10%;
     }
 
     .Total, .MalaTotal {
-        width: 20%;
-        height: 30px;
+        width: 40%;
+        height: 50px;
     }
 
     .resetP, p {
         font-size: 7vw;
     }
 
-    /* Change increment and decrement buttons to vertical stack */
+    
     .inner {
-        /* font-size: 10vw; */
-        flex-direction: column; /* Stack increment and decrement vertically */
+  
+        flex-direction: column; 
     }
 
     #dec, #inc {
-        width: 25vw; /* Adjust width for vertical layout */
-        margin: 10px 0; /* Add margin between buttons */
+        width: 25vw;
+        margin: 10px 0; 
     }
 }
